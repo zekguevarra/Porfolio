@@ -243,7 +243,6 @@ section {
 section.services {
   padding: 0;
   padding-bottom: 120px;
-  background-color: #1f1f27;
 }
 section.services .gridservices {
   padding-bottom: 20px;
@@ -264,6 +263,10 @@ section.services .gridservices .service-title {
 }
 section.services .gridservices .service-title i {
   color: #30f3a2;
+}
+
+section.projects {
+  background-color: #1f1f27;
 }
 
 footer {
@@ -397,5 +400,30 @@ footer .waves .wave {
   }
   100% {
     background-position-x: 1000px;
+  }
+}
+.item .cardd img {
+  border-radius: 8%;
+}
+.item .cardd .card-detail .project-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #30f3a2;
+}
+.item .cardd .card-detail .project-details {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .item .cardd {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1em;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .item .cardd .card-detail {
+    margin-top: 2.5em;
   }
 }/*# sourceMappingURL=style.css.map */

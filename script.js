@@ -1,6 +1,3 @@
-//slidecontainer
-
-
 //preloader
 var loader;
 function loadNow(opacity) {
