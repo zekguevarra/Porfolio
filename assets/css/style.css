@@ -402,6 +402,12 @@ footer .waves .wave {
     background-position-x: 1000px;
   }
 }
+.otherproject {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "open Sans", sans-serif !important;
+}
+
 .item .cardd img {
   border-radius: 8%;
 }
@@ -409,6 +415,17 @@ footer .waves .wave {
   font-size: 2.5rem;
   font-weight: 600;
   color: #30f3a2;
+}
+.item .cardd .card-detail .project-link a {
+  color: white;
+}
+.item .cardd .card-detail .project-job span {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 400;
+  background-color: rgba(127, 186, 0, 0.5);
+  border: rgb(127, 186, 0) 2px solid;
+  border-radius: 20px;
 }
 .item .cardd .card-detail .project-details {
   font-size: 1.2rem;
