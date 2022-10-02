@@ -5,6 +5,7 @@ html, body {
   color: white;
   padding: 0;
   border: 0;
+  cursor: pointer;
 }
 
 #loader {
@@ -409,7 +410,7 @@ footer .waves .wave {
 }
 
 .item .cardd img {
-  border-radius: 8%;
+  border-radius: 10%;
 }
 .item .cardd .card-detail .project-title {
   font-size: 2.5rem;
