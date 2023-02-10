@@ -100,9 +100,12 @@ nav {
 }
 .main-title {
   font-family: "montserrat", sans-serif !important;
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   width: 80vw;
+  background: linear-gradient(to bottom, #F7D08A, #FFA07A, #F24C3E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title {
@@ -340,43 +343,29 @@ footer .waves .wave {
   z-index: 1000;
   opacity: 1;
   bottom: 0;
-  -webkit-animation: animate 20s linear infinite;
-          animation: animate 20s linear infinite;
+  animation: animate 20s linear infinite;
 }
 
 #wave2 {
   z-index: 999;
   opacity: 0.5;
   bottom: 10px;
-  -webkit-animation: animate2 10s linear infinite;
-          animation: animate2 10s linear infinite;
+  animation: animate2 10s linear infinite;
 }
 
 #wave3 {
   z-index: 998;
   opacity: 0.2;
   bottom: 15px;
-  -webkit-animation: animate 20s linear infinite;
-          animation: animate 20s linear infinite;
+  animation: animate 20s linear infinite;
 }
 
 #wave4 {
   z-index: 997;
   opacity: 0.3;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
   bottom: 20px;
-  -webkit-animation: animate2 7s linear infinite;
-          animation: animate2 7s linear infinite;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-position-x: 0;
-  }
+  animation: animate2 7s linear infinite;
 }
 
 @keyframes animate {
@@ -385,14 +374,6 @@ footer .waves .wave {
   }
   100% {
     background-position-x: 0;
-  }
-}
-@-webkit-keyframes animate2 {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: 1000px;
   }
 }
 @keyframes animate2 {

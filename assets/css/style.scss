@@ -93,9 +93,12 @@ nav{
   //hero
   .main-title{
     font-family: 'montserrat', sans-serif !important;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight:700;
     width: 80vw;
+    background: linear-gradient(to bottom, #F7D08A, #FFA07A, #F24C3E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .title{
     font-size: 4.5rem;
